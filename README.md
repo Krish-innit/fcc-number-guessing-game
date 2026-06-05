@@ -25,19 +25,34 @@ The project utilizes a PostgreSQL database named `number_guess` with a `users` t
 **Pro Tip* : Make sure you are running these commands inside a Linux/Unix **Bash terminal** (or WSL/Git Bash if you are on Windows).
 
 - Step 1: **Log in postgresql**
+
           psql --username=postgres
+
+  
 - Step 2: **Create database number_guess**
-          CREATE DATABASE number_guess; 
+
+          CREATE DATABASE number_guess;
+
+  
 - Step 3: **Connect to the database using \c**
+
           \c number_guess
+
+  
 - Step 4: **Create table as mentioned above**
+
           CREATE TABLE users(
           user_id SERIAL PRIMARY KEY,
           username VARCHAR(22) UNIQUE NOT NULL,
           games_played INT DEFAULT 0,
           best_game INT
           );
+
+  
 - Step 5: **Give executable permission to .sh file**
-          chmod +x number_guess.sh
-- Step 6: Run and Ejoy!
+
+           chmod +x number_guess.sh
+
+  
+- Step 6: **Run and Ejoy!**
 
