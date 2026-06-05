@@ -14,6 +14,7 @@ A command-line number guessing game built with Bash and PostgreSQL. This project
 The project utilizes a PostgreSQL database named `number_guess` with a `users` table structured as follows:
 
 | Column | Type | Description |
+| :--- | :--- | :--- |
 | `user_id` | `SERIAL` | Primary key, auto-incrementing identifier. |
 | `username` | `VARCHAR(22)` | Unique identifier for the player (max 22 characters). |
 | `games_played` | `INT` | Total number of games completed (Defaults to `0`). |
