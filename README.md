@@ -5,7 +5,7 @@ A command-line number guessing game built with Bash and PostgreSQL. This project
 ## Features
 
 - **User Persistence**: Automatically detects returning users and tracks their game history.
-- ** Welcome Messages**: Greets new users uniquely and displays career stats (total games played and best/lowest guess count) for returning players.
+- **Welcome Messages**: Greets new users uniquely and displays career stats (total games played and best/lowest guess count) for returning players.
 - **Input Validation**: Ensures only valid integers count as guesses, gracefully handling alphabetical inputs or symbols without penalizing the player.
 - **Updating Leaderboard Stats**: Automatically updates database records upon a successful game completion.
 
